@@ -6,7 +6,7 @@ const TopBanner = () => {
       {/* How use Custom COlor */}
       <div className="lg:container mx-auto ">
         <div className="grid lg:grid-cols-2 sm:gird-cols-1 gap-1">
-          <div>
+          <div className="text-center">
             <h2 className="text-5xl font-bold text-center mt-10 pt-4">
               Leave your mark
             </h2>
@@ -22,7 +22,9 @@ const TopBanner = () => {
               caerphilly cheese and wine monterey jack. Mozzarella ricotta
               monterey jack say cheese danish fontina manchego cow.
             </p>
-            <button className="rounded-full ...">Save Changes</button>
+            <button className="rounded  ... bg-sky-500 p-2 my-4 ">
+              Save Changes
+            </button>
           </div>
           <div className=" text-center ">
             <Image src={logo} alt="" />
